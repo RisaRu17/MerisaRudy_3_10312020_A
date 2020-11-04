@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*style body*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 100%;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+/*style header*/
+header {
+    display: block;
+}
+
+header img {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+      
+}
