@@ -11,19 +11,57 @@ body {
     width: 100%;
 }
 
+/*style incons*/
+
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-/*style header*/
-header {
-    display: block;
-}
-
-header img {
-    display: block;
-    width: 50%;
-    margin: 10px auto;
-}
       
+/*style header*/
+      header {
+          display: block;
+          width: 100%;
+      }
+
+      header img {
+          display: block;
+          width: 50%;
+          margin: 10px auto;
+      }
+
+      nav {
+          display: inline-block;
+          background: #F2F2F2;
+          height: auto;
+          width: 100%;
+          box-shadow: inset 0 5px 10px -5px grey;
+          text-align: center;
+      }
+      
+      .navbar {
+          float: none;
+          display: inline-block;
+          justify-content: center;
+          align-content: center;
+      }
+
+      .fa-map-marker-alt {
+          font-size: 1em;
+          color: grey;
+      }
+      
+      input[type="text"] {
+          text-align: left;
+          height: auto;
+          padding: 10px;
+          width: auto;
+          font-weight: bold;
+          border: none;
+          background: transparent;
+          margin: 0px auto;
+      }
+      
+
 }
