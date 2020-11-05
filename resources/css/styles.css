@@ -149,4 +149,23 @@ body {
         margin-bottom: 50px;
     }
     
+    footer {
+        width: 100%;
+        background: #5A5A5A;
+        color: white;
+        align-content: justify;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    
+    .footer-title {
+        font-family: 'Shrikhand', cursive;
+        font-weight: 100;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+    
 }
