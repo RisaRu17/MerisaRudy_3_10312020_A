@@ -97,6 +97,11 @@ body {
         font-weight: 900;
     }
     
+    main {
+        background: #fafafa;
+        padding: 30px 10px;
+    }
+    
     .restaurant-list {
         display: flex;
         flex-wrap: wrap;
@@ -122,7 +127,7 @@ body {
         text-align: justify;
         align-content: center;
         text-decoration: none;
-        box-shadow: 0 13px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 12px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
         overflow: hidden;
     }
     
