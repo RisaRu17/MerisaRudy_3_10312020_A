@@ -126,7 +126,7 @@ body {
         overflow: hidden;
     }
     
-    img {
+    .card-img {
         width: 100%;
         border-radius: 15px 15px 0px 0px;
         align-self: end;
@@ -144,7 +144,7 @@ body {
         
     }
     
-    .the-enchanted-plate-img {
+    #the-enchanted-plate-img {
         align-self: center;
         margin-bottom: 50px;
     }
