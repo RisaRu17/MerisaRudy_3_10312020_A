@@ -96,4 +96,57 @@ body {
     .how-to-section p {
         font-weight: 900;
     }
+    
+    .restaurant-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        margin: 0px 0px;
+        padding: 20px 0px;
+        grid-gap: 30px;
+        }
+    
+    .card {
+        display: grid;
+        grid-template-rows: 165px 60px;
+        background-repeat: no-repeat;
+        background-position: bottom 40px right 0px;
+        height: 225px;
+        width: 300px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: justify;
+        align-content: center;
+        text-decoration: none;
+        box-shadow: 0 13px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 12px 0 rgba(0, 0, 0, 0.19);
+        overflow: hidden;
+    }
+    
+    img {
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+        align-self: end;
+    }
+    
+    .card-text-box {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+        background: white;
+        color: black;
+        width: 300px;
+        border-radius: 0px 0px 15px 15px;
+        padding: 10px;
+        
+    }
+    
+    .the-enchanted-plate-img {
+        align-self: center;
+        margin-bottom: 50px;
+    }
+    
 }
