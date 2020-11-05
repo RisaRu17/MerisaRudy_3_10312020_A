@@ -82,11 +82,12 @@ body {
     }
 
     .how-to-section {
-        margin: 30px 10px;
+        margin: 30px 20px;
         width: 100%;
     }
 
     .how-to-section li {
+        list-style: none;
     }
 
     .how-to-section h2 {
@@ -100,6 +101,10 @@ body {
     main {
         background: #fafafa;
         padding: 30px 10px;
+    }
+    
+    main h2 {
+        margin-left: 10px;
     }
     
     .restaurant-list {
@@ -160,7 +165,6 @@ body {
         color: white;
         align-content: justify;
         padding: 20px;
-        margin-top: 40px;
     }
     
     .footer-title {
