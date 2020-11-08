@@ -96,12 +96,50 @@ body {
     }
 
     .how-to-section {
-        margin: 30px 20px;
+        margin: 30px 10px;
         width: 100%;
+    }
+    
+    .how-to-section h2 {
+        margin-left: 10px;
+    }
+    
+    .neumorphic-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px;
+        font-size: 1em;
     }
 
     .how-to-section li {
         list-style: none;
+        position: relative;
+        height: 75px;
+        width: 300px;
+        padding: 30px 25px;
+        margin: 10px 0px;
+        justify-content: flex-start;
+        border-radius: 25px;
+        background: #ffffff;
+        box-shadow:  13px 13px 26px #d9d9d9, -13px -13px 26px #ffffff;
+
+    }
+    
+    .badge {
+      position: absolute;
+      left: -10px;
+      top: 30px;
+      padding: 3px 8px;
+      border-radius: 50%;
+      background: #9356DC;
+      color: white;
+      font-size: .9em;
+      font-weight: 900;
+    }
+    
+    .fa-fw {
+        width: 20px;
     }
 
     .how-to-section h2 {
@@ -191,4 +229,8 @@ body {
         color: white;
     }
     
+}
+
+input.fill-heart:checked + .card-title{
+   color:red;
 }
