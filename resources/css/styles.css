@@ -49,9 +49,10 @@ body {
 
     input[type="text"] {
         text-align: left;
+        font-size: 1em;
         height: auto;
         padding: 10px;
-        width: auto;
+        width: 150px;
         font-weight: bold;
         border: none;
         background: transparent;
