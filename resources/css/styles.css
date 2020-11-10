@@ -172,6 +172,10 @@ body {
         grid-gap: 30px;
         }
     
+    main a {
+        text-decoration: none;
+    }
+    
     .card {
         display: grid;
         grid-template-rows: 165px 60px;
