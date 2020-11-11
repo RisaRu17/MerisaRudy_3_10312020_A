@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*style body*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    width: 100%;
+}
+
+/*style incons*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    header img {
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        background: #5A5A5A;
+        color: white;
+        align-content: justify;
+        padding: 20px;
+    }
+    
+    .footer-title {
+        font-family: 'Shrikhand', cursive;
+        font-weight: 100;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+}
