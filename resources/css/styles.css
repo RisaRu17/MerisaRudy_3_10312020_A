@@ -190,6 +190,7 @@ body {
         text-decoration: none;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
         overflow: hidden;
+        position: relative;
     }
     
     .card-img {
@@ -197,6 +198,15 @@ body {
         border-radius: 15px 15px 0px 0px;
         align-self: end;
     }
+    
+    .new-text-block {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       background-color: #99E2D0;
+       color: #107C60;
+       padding: 5px 20px;
+     }
     
     .card-text-box {
         display: grid;
