@@ -15,10 +15,18 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        display: block;
+        display: inline-block;
         width: 100%;
+        position: relative;
     }
-
+    fa-arrow-left{
+        color: #5A5A5A;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        margin: 0px;
+    }
+    
     header img {
         display: block;
         width: 50%;
@@ -33,11 +41,14 @@ body {
         color: white;
         align-content: justify;
         padding: 20px;
+        line-height: 1.8;
     }
     
-    .footer-title {
-        font-family: 'Shrikhand', cursive;
-        font-weight: 100;
+    footer img {
+        filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
+        width: 100px;
+        border: none;
+        margin-bottom: 10px;
     }
     
     footer a {
