@@ -33,6 +33,11 @@ body {
         margin: 15px auto;
     }
     
+    .menu-page-img {
+        width: 100%;
+        align-self: end;
+    }
+    
         main {
         background: #F2F2F2;
         padding: 50px 10px 0px 10px;
