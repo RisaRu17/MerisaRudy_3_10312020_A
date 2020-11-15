@@ -19,13 +19,6 @@ body {
         width: 100%;
         position: relative;
     }
-    fa-arrow-left{
-        color: #5A5A5A;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        margin: 0px;
-    }
     
     header img {
         display: block;
@@ -35,9 +28,11 @@ body {
     
     .menu-page-img {
         width: 100%;
+        height: 300px;
+        overflow: hidden;
     }
     
-    img {
+    .menu-page-img img {
         width: 100%;
         align-self: end;
     }
@@ -81,7 +76,6 @@ body {
         width: 300px;
         border-radius: 15px;
         justify-content: center;
-        text-align: justify;
         text-decoration: none;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
         position: relative;
@@ -92,14 +86,17 @@ body {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
         padding: 10px;
+        text-align: justify;
     } 
 
     price-order-check {
-
+        width: 100%;
+        text-align: center;
+        vertical-align: bottom;
     }
 
     item-price {
-        height: 10%;
+        font-size: bold;
     }
 
     
