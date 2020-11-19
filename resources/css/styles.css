@@ -7,7 +7,6 @@
 /*style body*/
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Shrikhand', cursive;
     font-size: 1em;
     width: 100%;
 }
@@ -159,6 +158,15 @@ body {
     main h2 {
         margin-left: 10px;
     }
+    
+    main h4 {
+        margin-bottom: 3px;
+    }
+    
+    main p {
+        font-weight: 300;
+    }
+    
     
     .restaurant-list {
         display: flex;

@@ -7,7 +7,6 @@
 /*style body*/
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Shrikhand', cursive;
     font-size: 1em;
     width: 100%;
 }
@@ -61,14 +60,55 @@ body {
         background-position: center;
     }
     
-        main {
+    main {
         background: #F2F2F2;
-        padding: 50px 10px 0px 10px;
-        margin: 0px;
+        padding: 30px 13px 0px 13px;
+        margin: -50px 0px 0px 0px;
+        border-radius: 35px 35px 0px 0px;
+    }
+    
+    .menu-title-like-grid {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        margin-bottom: 30px;
+    }
+    .menu-title {
+        font-family: 'Shrikhand', cursive;
+        padding-left: 10px;
+    }
+    
+    .like-checkbox {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        height: auto;
+    }
+
+    [id='toggle-heart'] {
+        position: absolute;
+        left: -100vw;
+    }
+
+    [id='toggle-heart']:checked + label {
+        color: #FF79DA;
+    }
+
+    [for='toggle-heart'] {
+        align-self: center;
+        color: #aab8c2;
+        font-size: 2em;
+        cursor: pointer;
     }
     
     main h3 {
         margin: 0px;
+        padding-top: 4px;
+    }
+    
+    main p {
+        margin: 0px;
+        padding-top: 4px;
+        font-weight: 300;
     }
 
     hr {
@@ -101,8 +141,9 @@ body {
         border-radius: 15px;
         justify-content: center;
         text-decoration: none;
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
         position: relative;
+        background-color: white;
     }
     
     .card-title {
@@ -113,21 +154,19 @@ body {
         text-align: justify;
     } 
 
-    price-order-check {
+    .price-order-check {
         width: 100%;
-        text-align: center;
-        vertical-align: bottom;
     }
 
-    item-price {
+    .item-price {
         font-size: bold;
+        text-align: center;
+        padding-top: 27px;
     }
 
     
-    section {
+    .btn-section {
         background-color: #F2F2F2;
-        width: 100%;
-        align-content: center;
         text-align:center;
     }
     
