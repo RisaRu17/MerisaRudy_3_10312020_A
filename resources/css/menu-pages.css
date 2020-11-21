@@ -7,17 +7,32 @@
 /*style body*/
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 0.79em;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /*style incons*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
         width: 100%;
         position: relative;
+    }
+    
+    .return-home-arrow {
+        display: inline-block;
+        margin: auto;
+    }
+    
+    .fa-arrow-left {
+        font-size: 1.75em;
     }
     
     header img {
@@ -100,14 +115,16 @@ body {
         cursor: pointer;
     }
     
+    main h2 {
+        font-size: 1.9em;
+    }
+    
     main h3 {
-        margin: 0px;
-        padding-top: 4px;
+        margin: auto auto auto 0px;
     }
     
     main p {
-        margin: 0px;
-        padding-top: 4px;
+        margin: auto auto auto 0px;
         font-weight: 300;
     }
 
@@ -115,10 +132,6 @@ body {
         width: 50px;
         border: 2px solid #99E2D0;
         margin: 5px 0px 20px 0px;
-    }
-
-    main a {
-        text-decoration: none;
     }
     
     .item-list {
@@ -149,9 +162,9 @@ body {
     .card-title {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
+        grid-template-rows: 1fr 1fr;
         padding: 10px;
-        text-align: justify;
+        height: 75px;
     } 
 
     .price-order-check {
