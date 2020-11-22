@@ -13,7 +13,7 @@ body {
 
 /*style incons*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) {
     /*style header*/
     header {
         display: block;
@@ -233,28 +233,50 @@ body {
     
     /*      CHECKBOX         */
     .like-checkbox {
+        height: 100%;
+        width: 100%;
         display: flex;
+        align-items: center;
         justify-content: center;
-        margin: 0;
-        height: auto;
     }
-
-    [id='toggle-heart'] {
+    
+    input[type="checkbox"]{
+        height: 15px;
+        width: 15px;
+        background-color: grey;
+        position: relative;
+        outline: none;
+        transform: rotate(45deg);
+        -webkit-appearance: none;
+    }
+    
+    input[type="checkbox"]:before{
         position: absolute;
-        left: -100vw;
+        content: "";
+        background-color: grey;
+        height: 60%;
+        width: 100%;
+        top: -55%;
+        border-radius: 100px 100px 0 0;
     }
-
-    [id='toggle-heart']:checked + label {
-        color: #FF79DA;
+    
+    input[type="checkbox"]:after{
+        position: absolute;
+        content: "";
+        background-color: grey;
+        height: 60%;
+        width: 100%;
+        transform: rotate(-90deg);
+        border-radius: 100px 100px 0 0;
+        top: 20%;
+        right: 75%;
     }
-
-    [for='toggle-heart'] {
-        align-self: center;
-        color: #aab8c2;
-        font-size: 2em;
-        cursor: pointer;
+    
+    input[type="checkbox"]:checked,
+    input:checked[type="checkbox"]:before,
+    input:checked[type="checkbox"]:after{
+        background-color: #FF79DA;
     }
-
     /*                       */
     
     #the-enchanted-plate-img {
