@@ -107,6 +107,7 @@ a {
         background-color: grey;
         position: relative;
         outline: none;
+        box-shadow: none;
         transform: rotate(45deg);
         -webkit-appearance: none;
     }
