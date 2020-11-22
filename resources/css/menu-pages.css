@@ -84,12 +84,13 @@ a {
     
     .menu-title-like-grid {
         display: grid;
-        grid-template-columns: 75% 25%;
+        grid-template-columns: 0% 75% 25%;
         margin-bottom: 30px;
     }
     .menu-title {
         font-family: 'Shrikhand', cursive;
         padding-left: 10px;
+        text-align:justify;
     } 
     
     /*      CHECKBOX         */
@@ -142,7 +143,7 @@ a {
     /*                       */
     
     main h2 {
-        font-size: 1.9em;
+        font-size: 1.76em;
     }
     
     main h3 {
