@@ -23,9 +23,7 @@ body {
     header img {
         display: block;
         margin: 15px auto;
-        max-height: 50px;
-        min-height: 25px;
-        width: 50%; /* up to 560px */
+        height: 35px;
     }
 
     nav {
@@ -108,19 +106,20 @@ body {
     
     .neumorphic-list {
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
         align-items: center;
         margin: 20px 0px;
         font-size: 1em;
+        justify-content: center;
     }
 
     .how-to-section li {
         list-style: none;
         position: relative;
         height: 75px;
-        width: 300px;
+        min-width: 284px;
         padding: 30px 25px;
-        margin: 10px 0px;
+        margin: 10px 25px;
         justify-content: flex-start;
         border-radius: 25px;
         background: #ffffff;
