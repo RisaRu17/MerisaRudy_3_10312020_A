@@ -261,6 +261,16 @@ a {
     }
 }
 
+@media screen and (min-device-width: 776px) {
+    footer ul {
+        flex-direction: row;
+    }
+    
+    footer li {
+        margin: 20px;
+    }
+}
+
 @media screen and (min-device-width: 966px) {   
     main h2 {
         font-size: 50px;

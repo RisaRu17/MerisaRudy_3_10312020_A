@@ -210,6 +210,12 @@ body {
         align-self: end;
         overflow: hidden;
     }
+
+    #the-enchanted-plate-img {
+        align-self: center;
+        margin-bottom: 50px;
+        width: 300px;
+    }
     
     .new-text-block {
        position: absolute;
@@ -291,16 +297,25 @@ body {
         width: 100%;
         background: #5A5A5A;
         color: white;
-        align-content: justify;
         padding: 20px;
         line-height: 1.8;
+    }
+    
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer li {
+        display: inline-flex;
+        
     }
     
     footer img {
         filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
         width: 100px;
         border: none;
-        margin-bottom: 10px;
+        margin: 5px 0px 5px 0px;
     }
     
     footer a {
@@ -308,4 +323,14 @@ body {
         color: white;
     }
     
+}
+
+@media screen and (min-device-width: 776px) {
+    footer ul {
+        flex-direction: row;
+    }
+    
+    footer li {
+        margin: 20px;
+    }
 }
