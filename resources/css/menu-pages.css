@@ -37,8 +37,10 @@ a {
     
     header img {
         display: block;
-        width: 50%;
         margin: 15px auto;
+        max-height: 50px;
+        min-height: 25px;
+        width: 50%; /* up to 560px */
     }
     
     #menu-page-img {
