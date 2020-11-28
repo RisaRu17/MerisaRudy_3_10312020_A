@@ -1,116 +1,153 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Ohmyfood</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/styles.css">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <title>Ohmyfood</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Shrikhand&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="resources/css/styles.css" />
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
 
-<body>
-    <header>
-        <img src="img/logo/ohmyfood.png" alt="Ohmyfood logo">
-    </header>
-    <nav>
-        <div class="navbar">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text" placeholder="Paris, Belleville">
-        </div>
-    </nav>
-    <section>
-        <div class="book-it-section">
-            <h2>Book the menu you like</h2>
-            <br>
-            <p>Discover top-of-the-art restaurants we picked for you</p>
-            <button class="explore-btn">Explore our restaurants</button>
-        </div>
-        <div class="how-to-section">
-            <h2>How it works</h2>
-            <ul class="neumorphic-list">
-                <li><i class="fas fa-mobile-alt fa-fw"></i> &nbsp; &nbsp; Choose a restaurant<span class="badge">1</span></li>
-                <li><i class="fas fa-list-ul fa-fw"></i> &nbsp; &nbsp; Create your menu<span class="badge">2</span></li>
-                <li><i class="fas fa-store fa-fw"></i> &nbsp; &nbsp; Go enjoy it at the restaurant<span class="badge">3</span></li>
+    <body>
+        <div></div>
+        <header>
+            <img src="img/logo/ohmyfood.png" alt="Ohmyfood logo" />
+        </header>
+        <nav>
+            <div class="navbar">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Paris, Belleville" />
+            </div>
+        </nav>
+        <section>
+            <div class="book-it-section">
+                <h2>Book the menu you like</h2>
+                <br />
+                <p>Discover top-of-the-art restaurants we picked for you</p>
+                <button class="explore-btn">Explore our restaurants</button>
+            </div>
+            <div class="how-to-section">
+                <h2>How it works</h2>
+                <ul class="neumorphic-list">
+                    <li>
+                        <i class="fas fa-mobile-alt fa-fw"></i> &nbsp; &nbsp;
+                        Choose a restaurant<span class="badge">1</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-list-ul fa-fw"></i> &nbsp; &nbsp;
+                        Create your menu<span class="badge">2</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-store fa-fw"></i> &nbsp; &nbsp; Go
+                        enjoy it at the restaurant<span class="badge">3</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <main>
+            <h2>Restaurants</h2>
+            <div class="restaurant-list">
+                <a href="menu-pages/the-full-palette.html">
+                    <div class="card">
+                        <img
+                            class="card-img"
+                            src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                            alt="The Full Palette"
+                        />
+                        <div class="new-text-block">
+                            <h4>New</h4>
+                        </div>
+                        <div class="card-text-box">
+                            <div class="card-title">
+                                <h4>The Full Palette</h4>
+                                <p>New York</p>
+                            </div>
+                            <div class="like-checkbox">
+                                <input type="checkbox" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="menu-pages/the-enchanted-plate.html">
+                    <div class="card">
+                        <img
+                            class="card-img"
+                            id="the-enchanted-plate-img"
+                            src="img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                            alt="The Enchanted Plate"
+                        />
+                        <div class="new-text-block">
+                            <h4>New</h4>
+                        </div>
+                        <div class="card-text-box">
+                            <div class="card-title">
+                                <h4>The Enchanted Plate</h4>
+                                <p>New York</p>
+                            </div>
+                            <div class="like-checkbox">
+                                <input type="checkbox" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="menu-pages/bastille.html">
+                    <div class="card">
+                        <img
+                            class="card-img"
+                            src="img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                            alt="Bastille"
+                        />
+                        <div class="card-text-box">
+                            <div class="card-title">
+                                <h4>Bastille</h4>
+                                <p>New York</p>
+                            </div>
+                            <div class="like-checkbox">
+                                <input type="checkbox" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="menu-pages/le-gourmand.html">
+                    <div class="card">
+                        <img
+                            class="card-img"
+                            src="img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                            alt="Le Gourmand"
+                        />
+                        <div class="card-text-box">
+                            <div class="card-title">
+                                <h4>Le Gourmand</h4>
+                                <p>New York</p>
+                            </div>
+                            <div class="like-checkbox">
+                                <input type="checkbox" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li><img src="../img/logo/ohmyfood.png" /></li>
+                <li>
+                    <h4>
+                        <i class="fas fa-utensils fa-fw"></i> &nbsp; Suggest a
+                        restaurant
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <i class="fas fa-hands-helping fa-fw"></i> &nbsp; Become
+                        a partner
+                    </h4>
+                </li>
+                <li><p>Legal</p></li>
+                <li><a href="mailto:someone@yoursite.com">Contact</a></li>
             </ul>
-        </div>
-    </section>
-    <main>
-        <h2>Restaurants</h2>
-        <div class="restaurant-list">
-            <a href="menu-pages/the-full-palette.html">
-            <div class="card">
-                <img class="card-img" src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="The Full Palette">
-                <div class="new-text-block">
-                <h4>New</h4>
-                </div>
-                <div class="card-text-box">   
-                    <div class="card-title">
-                        <h4>The Full Palette</h4>
-                        <p>New York</p>
-                    </div>
-                    <div class="like-checkbox">
-                        <input type="checkbox">
-                    </div>
-                </div>
-            </div>
-            </a>
-            <a href="menu-pages/the-enchanted-plate.html">
-            <div class="card">
-                <img class="card-img" id="the-enchanted-plate-img" src="img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="The Enchanted Plate">
-                <div class="new-text-block">
-                <h4>New</h4>
-                </div>
-                <div class="card-text-box">
-                    <div class="card-title">
-                        <h4>The Enchanted Plate</h4>
-                        <p>New York</p>
-                    </div>
-                    <div class="like-checkbox">
-                        <input type="checkbox">
-                    </div>
-                </div>
-            </div>
-            </a>
-            <a href="menu-pages/bastille.html"> 
-            <div class="card">
-                <img class="card-img" src="img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Bastille">
-                <div class="card-text-box">
-                    <div class="card-title">
-                        <h4>Bastille</h4>
-                        <p>New York</p>
-                    </div>
-                    <div class="like-checkbox">
-                        <input type="checkbox">
-                    </div>
-                </div>
-            </div>
-            </a>
-            <a href="menu-pages/le-gourmand.html">
-            <div class="card">
-                <img class="card-img" src="img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Gourmand">
-                <div class="card-text-box">
-                    <div class="card-title">
-                        <h4>Le Gourmand</h4>
-                        <p>New York</p>
-                    </div>
-                    <div class="like-checkbox">
-                        <input type="checkbox">
-                    </div>
-                </div>
-            </div>
-            </a>
-        </div>
-    </main>
-    <footer>
-        <ul>
-            <li><img src="../img/logo/ohmyfood.png"></li>
-            <li><h4><i class="fas fa-utensils fa-fw"></i> &nbsp; Suggest a restaurant</h4></li>
-            <li><h4><i class="fas fa-hands-helping fa-fw"></i> &nbsp; Become a partner</h4></li>
-            <li><p>Legal</p></li>
-            <li><a href="mailto:someone@yoursite.com">Contact</a></li>
-        </ul>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

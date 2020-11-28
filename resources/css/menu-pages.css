@@ -6,7 +6,7 @@
 
 /*style body*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 0.79em;
     width: 100%;
 }
@@ -18,274 +18,267 @@ a {
 
 /*style incons*/
 
-@media only screen and (min-device-width: 320px) {
-    header {
-        display: grid;
-        grid-template-columns: 10% 80% 10%;
-        width: 100%;
-        position: relative;
-    }
-    
-    .return-home-arrow {
-        display: inline-block;
-        margin: auto;
-    }
-    
-    .fa-arrow-left {
-        font-size: 1.75em;
-    }
-    
-    header img {
-        display: block;
-        margin: 15px auto;
-        height: 35px;
-    }
-    
-    #menu-page-img {
-        width: 100%;
-        height: 250px;
-        overflow: hidden;
-    }
-    
-    .bastille-img {
-        background-image: url(../../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 0 62%;
-    }
-    
-    .le-gourmand-img {
-        background-image: url(../../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 0 67%;
-    }
-    
-    .the-enchanted-plate-img {
-        background-image: url(../../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 0 57%;
-    }
-    
-    .the-full-palette-img {
-        background-image: url(../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 0 58%;
-    }
-    
-    main {
-        background: #F2F2F2;
-        padding: 30px 13px 0px 13px;
-        margin: -50px 0px 0px 0px;
-        border-radius: 35px 35px 0px 0px;
-    }
-    
-    .menu-title-like-grid {
-        display: grid;
-        grid-template-columns: 0% 85% 15%;
-        margin-bottom: 30px;
-        max-height: 75px;
-    }
-    
-    .menu-title {
-        font-family: 'Shrikhand', cursive;
-        padding-left: 10px;
-    } 
-    
-    /*      CHECKBOX         */
-    .like-checkbox {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    input[type="checkbox"]{
-        height: 15px;
-        width: 15px;
-        background-color: grey;
-        position: relative;
-        outline: none;
-        box-shadow: none;
-        transform: rotate(45deg);
-        -webkit-appearance: none;
-    }
-    
-    input[type="checkbox"]:before{
-        position: absolute;
-        content: "";
-        background-color: grey;
-        height: 60%;
-        width: 100%;
-        top: -55%;
-        border-radius: 100px 100px 0 0;
-    }
-    
-    input[type="checkbox"]:after{
-        position: absolute;
-        content: "";
-        background-color: grey;
-        height: 60%;
-        width: 100%;
-        transform: rotate(-90deg);
-        border-radius: 100px 100px 0 0;
-        top: 20%;
-        right: 75%;
-    }
-    
-    input[type="checkbox"]:checked,
-    input:checked[type="checkbox"]:before,
-    input:checked[type="checkbox"]:after{
-        background-color: #FF79DA;
-    }
-    /*                       */
-    
-    main h2 {
-        font-size: 6vw;
-    }
-    
-    main h3 {
-        margin: auto auto auto 0px;
-    }
-    
-    main p {
-        margin: auto auto auto 0px;
-        font-weight: 300;
-    }
-
-    hr {
-        width: 50px;
-        border: 2px solid #99E2D0;
-        margin: 5px 0px 20px 0px;
-    }
-    
-    .item-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
-        margin: 0px;
-        padding: 0px 0px 50px 0px;
-        grid-gap: 20px;
-    }
-    
-    .item-card {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        height: 75px;
-        width: 300px;
-        border-radius: 15px;
-        justify-content: center;
-        text-decoration: none;
-        box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
-        position: relative;
-        background-color: white;
-    }
-    
-    .card-title {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        padding: 10px;
-        height: 75px;
-    } 
-
-    .price-order-check {
-        width: 100%;
-    }
-
-    .item-price {
-        font-size: bold;
-        text-align: center;
-        padding-top: 27px;
-    }
-
-    
-    .btn-section {
-        background-color: #F2F2F2;
-        text-align:center;
-    }
-    
-    .order-btn {
-        background: linear-gradient(345deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-        color: white;
-        border: none;
-        padding: 15px 75px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 25px;
-        box-shadow: 0px 11px 9px -8px rgba(0,0,0,0.23);
-        margin-bottom: 50px;
+header {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    width: 100%;
+    position: relative;
 }
 
-    
-    footer {
-        width: 100%;
-        background: #5A5A5A;
-        color: white;
-        align-content: justify;
-        padding: 20px;
-        line-height: 1.8;
-    }
-    
-    footer ul {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    footer li {
-        display: inline-flex;
-        
-    }
-    
-    footer img {
-        filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
-        width: 100px;
-        border: none;
-        margin-bottom: 10px;
-    }
-    
-    footer a {
-        text-decoration: none;
-        color: white;
-    }
+.return-home-arrow {
+    display: inline-block;
+    margin: auto;
 }
 
-@media screen and (min-device-width: 528px) {
+.fa-arrow-left {
+    font-size: 1.75em;
+}
+
+header img {
+    display: block;
+    margin: 15px auto;
+    height: 35px;
+}
+
+#menu-page-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.bastille-img {
+    background-image: url(../../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 62%;
+}
+
+.le-gourmand-img {
+    background-image: url(../../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 67%;
+}
+
+.the-enchanted-plate-img {
+    background-image: url(../../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 57%;
+}
+
+.the-full-palette-img {
+    background-image: url(../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 58%;
+}
+
+main {
+    background: #f2f2f2;
+    padding: 30px 13px 0px 13px;
+    margin: -50px 0px 0px 0px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.menu-title-like-grid {
+    display: grid;
+    grid-template-columns: 0% 85% 15%;
+    margin-bottom: 30px;
+    max-height: 75px;
+}
+
+.menu-title {
+    font-family: "Shrikhand", cursive;
+    padding-left: 10px;
+}
+
+/*      CHECKBOX         */
+.like-checkbox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    transform: rotate(45deg);
+    -webkit-appearance: none;
+}
+
+input[type="checkbox"]:before {
+    position: absolute;
+    content: "";
+    background-color: grey;
+    height: 60%;
+    width: 100%;
+    top: -55%;
+    border-radius: 100px 100px 0 0;
+}
+
+input[type="checkbox"]:after {
+    position: absolute;
+    content: "";
+    background-color: grey;
+    height: 60%;
+    width: 100%;
+    transform: rotate(-90deg);
+    border-radius: 100px 100px 0 0;
+    top: 20%;
+    right: 75%;
+}
+
+input[type="checkbox"]:checked,
+input:checked[type="checkbox"]:before,
+input:checked[type="checkbox"]:after {
+    background-color: #ff79da;
+}
+/*                       */
+
+main h2 {
+    font-size: 6vw;
+}
+
+main h3 {
+    margin: auto auto auto 0px;
+}
+
+main p {
+    margin: auto auto auto 0px;
+    font-weight: 300;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #99e2d0;
+    margin: 5px 0px 20px 0px;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 0px;
+    padding: 0px 0px 50px 0px;
+    grid-gap: 20px;
+}
+
+.item-card {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 75px;
+    width: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: white;
+}
+
+.card-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    height: 75px;
+}
+
+.price-order-check {
+    width: 100%;
+}
+
+.item-price {
+    font-size: bold;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.btn-section {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.order-btn {
+    background: linear-gradient(
+        345deg,
+        rgba(147, 86, 220, 1) 0%,
+        rgba(255, 121, 218, 1) 100%
+    );
+    color: white;
+    border: none;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0px 11px 9px -8px rgba(0, 0, 0, 0.23);
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background: #5a5a5a;
+    color: white;
+    align-content: justify;
+    padding: 20px 30px;
+    line-height: 1.8;
+}
+
+footer ul {
+    display: grid;
+    grid-template-rows: repeat(5, 30px);
+    grid-template-columns: 1fr;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg)
+        brightness(104%) contrast(104%);
+    width: 100px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-device-width: 528px) and (max-device-width: 2000px) {
     .menu-title-like-grid {
         grid-template-columns: 15% 70% 15%;
     }
-        
+
     .menu-title {
         text-align: center;
     }
-    
+}
+
+@media screen and (min-device-width: 528px) and (max-device-width: 965px) {
     main h2 {
         font-size: 5vw;
     }
 }
 
-@media screen and (min-device-width: 776px) {
-    footer ul {
-        flex-direction: row;
-    }
-    
-    footer li {
-        margin: 20px;
-    }
-}
-
-@media screen and (min-device-width: 966px) {   
+@media screen and (min-device-width: 966px) and (max-device-width: 2000px) {
     main h2 {
         font-size: 50px;
     }
-    
+
     .item-list {
         justify-content: normal;
     }
