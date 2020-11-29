@@ -177,6 +177,7 @@ hr {
     grid-gap: 20px;
 }
 
+/* PAGE TRANSITION */
 .item-card {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -188,38 +189,20 @@ hr {
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
     position: relative;
     background-color: white;
-}
-
-/* PAGE TRANSITION */
-.a, .b, .c, .d, .e, .f, .g, .h, .i, .j {
     animation: slide-in-from-left 2000ms cubic-bezier(.29,.38,.71,1) 1;
 }
-.b {
+
+.a1, .b1, .c1 {
     animation-delay: 25ms;
 }
-.c {
-    animation-delay: 50ms;
-}
-.d {
+.a2, .b2, .c2 {
     animation-delay: 75ms;
 }
-.e {
-    animation-delay: 100ms;
-}
-.f {
+.a3, .b3, .c3 {
     animation-delay: 125ms;
 }
-.g {
-    animation-delay: 150ms;
-}
-.h {
+.a4, .b4, .c4 {
     animation-delay: 175ms;
-}
-.i {
-    animation-delay: 200ms;
-}
-.j {
-    animation-delay: 225ms;
 }
 
 @keyframes slide-in-from-left {
