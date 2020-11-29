@@ -253,6 +253,10 @@ hr {
     margin-bottom: 50px;
 }
 
+.order-btn:hover {
+    opacity: 75%;
+}
+
 footer {
     width: 100%;
     background: #5a5a5a;
