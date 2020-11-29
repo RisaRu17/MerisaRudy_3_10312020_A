@@ -264,6 +264,7 @@ footer {
     align-content: justify;
     padding: 20px 30px;
     line-height: 1.8;
+    font-size: 1em;
 }
 
 footer ul {
@@ -306,10 +307,15 @@ footer a {
 }
 
 @media only screen and (min-width: 755px) and (max-width: 2000px) {
+    footer img {
+        margin: -4px;
+    }
+    
     footer ul {
         grid-template-rows: 1fr;
         grid-template-columns: 142px 223px 203px 85px 56px;
         justify-content: center;
+        font-size: 1.3em;
     }
 }
 
