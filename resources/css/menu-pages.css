@@ -105,7 +105,7 @@ main {
 input[type="checkbox"] {
     height: 15px;
     width: 15px;
-    background-color: grey;
+    background-color: #999999;
     position: relative;
     outline: none;
     box-shadow: none;
@@ -116,7 +116,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:before {
     position: absolute;
     content: "";
-    background-color: grey;
+    background-color: #999999;
     height: 60%;
     width: 100%;
     top: -55%;
@@ -126,13 +126,19 @@ input[type="checkbox"]:before {
 input[type="checkbox"]:after {
     position: absolute;
     content: "";
-    background-color: grey;
+    background-color: #999999;
     height: 60%;
     width: 100%;
     transform: rotate(-90deg);
     border-radius: 100px 100px 0 0;
     top: 20%;
     right: 75%;
+}
+
+input[type="checkbox"]:hover,
+input:hover[type="checkbox"]:before,
+input:hover[type="checkbox"]:after {
+    background-color: #666666;
 }
 
 input[type="checkbox"]:checked,
