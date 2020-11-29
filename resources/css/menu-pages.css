@@ -189,7 +189,7 @@ hr {
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
     position: relative;
     background-color: white;
-    animation: slide-in-from-left 1500ms cubic-bezier(.29,.38,.71,1) 1;
+    animation: slide-in-from-bottom 1500ms cubic-bezier(.29,.38,.71,1) 1;
 }
 
 .a1, .b1, .c1 {
@@ -205,17 +205,18 @@ hr {
     animation-delay: 150ms;
 }
 
-@keyframes slide-in-from-left {
+@keyframes slide-in-from-bottom {
   0% {
-    transform: translateX(-500%);
+    transform: translatey(100%);
     opacity: -5;
   }
   100% {
-    transform: translateX(0);
+    transform: translatey(0);
     opacity: 1;
   }
 }
 /*                   */
+
 
 .card-title {
     display: grid;
