@@ -207,11 +207,11 @@ hr {
 
 @keyframes slide-in-from-bottom {
   0% {
-    transform: translatey(100%);
+    transform: translateY(100%);
     opacity: -5;
   }
   100% {
-    transform: translatey(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
