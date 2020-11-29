@@ -189,25 +189,25 @@ hr {
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
     position: relative;
     background-color: white;
-    animation: slide-in-from-left 2000ms cubic-bezier(.29,.38,.71,1) 1;
+    animation: slide-in-from-left 1500ms cubic-bezier(.29,.38,.71,1) 1;
 }
 
 .a1, .b1, .c1 {
-    animation-delay: 25ms;
+    animation-delay: 0ms;
 }
 .a2, .b2, .c2 {
-    animation-delay: 75ms;
+    animation-delay: 50ms;
 }
 .a3, .b3, .c3 {
-    animation-delay: 125ms;
+    animation-delay: 100ms;
 }
 .a4, .b4, .c4 {
-    animation-delay: 175ms;
+    animation-delay: 150ms;
 }
 
 @keyframes slide-in-from-left {
   0% {
-    transform: translateX(-1000%);
+    transform: translateX(-500%);
     opacity: -5;
   }
   100% {
