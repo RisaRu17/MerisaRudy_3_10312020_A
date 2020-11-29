@@ -169,6 +169,15 @@ main p {
     font-weight: 300;
 }
 
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    transform: scale(1.1);
+}
+
 .restaurant-list {
     display: flex;
     flex-wrap: wrap;
@@ -180,11 +189,6 @@ main p {
     margin: 0px 0px;
     padding: 20px 0px;
     grid-gap: 30px;
-}
-
-main a {
-    text-decoration: none;
-    color: black;
 }
 
 .card {

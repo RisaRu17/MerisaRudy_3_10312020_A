@@ -161,6 +161,10 @@ hr {
     margin: 5px 0px 20px 0px;
 }
 
+.item-card:hover {
+    transform: scale(1.1);
+}
+
 .item-list {
     display: flex;
     flex-direction: row;
@@ -258,7 +262,7 @@ footer a {
     color: white;
 }
 
-@media screen and (min-device-width: 528px) and (max-device-width: 2000px) {
+@media only screen and (min-device-width: 528px) and (max-device-width: 2000px) {
     .menu-title-like-grid {
         grid-template-columns: 15% 70% 15%;
     }
@@ -268,13 +272,13 @@ footer a {
     }
 }
 
-@media screen and (min-device-width: 528px) and (max-device-width: 965px) {
+@media only screen and (min-device-width: 528px) and (max-device-width: 965px) {
     main h2 {
         font-size: 5vw;
     }
 }
 
-@media screen and (min-device-width: 966px) and (max-device-width: 2000px) {
+@media only screen and (min-device-width: 966px) and (max-device-width: 2000px) {
     main h2 {
         font-size: 50px;
     }
