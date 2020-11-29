@@ -301,6 +301,14 @@ footer a {
     }
 }
 
+@media only screen and (min-width: 755px) and (max-width: 2000px) {
+    footer ul {
+        grid-template-rows: 1fr;
+        grid-template-columns: 142px 223px 203px 85px 56px;
+        justify-content: center;
+    }
+}
+
 @media only screen and (min-width: 966px) and (max-width: 2000px) {
     main h2 {
         font-size: 50px;

@@ -319,10 +319,18 @@ footer img {
         brightness(104%) contrast(104%);
     width: 100px;
     border: none;
-    margin: 5px 0px 5px 0px;
+    margin: 6px 0px 5px 0px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (min-width: 755px) and (max-width: 2000px) {
+    footer ul {
+        grid-template-rows: 1fr;
+        grid-template-columns: 142px 223px 203px 85px 56px;
+        justify-content: center;
+    }
 }
