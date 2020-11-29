@@ -262,7 +262,7 @@ footer a {
     color: white;
 }
 
-@media only screen and (min-device-width: 528px) and (max-device-width: 2000px) {
+@media only screen and (min-width: 528px) and (max-width: 2000px) {
     .menu-title-like-grid {
         grid-template-columns: 15% 70% 15%;
     }
@@ -272,13 +272,13 @@ footer a {
     }
 }
 
-@media only screen and (min-device-width: 528px) and (max-device-width: 965px) {
+@media only screen and (min-width: 528px) and (max-width: 965px) {
     main h2 {
         font-size: 5vw;
     }
 }
 
-@media only screen and (min-device-width: 966px) and (max-device-width: 2000px) {
+@media only screen and (min-width: 966px) and (max-width: 2000px) {
     main h2 {
         font-size: 50px;
     }
