@@ -154,11 +154,16 @@ main h2 {
 
 main h3 {
     margin: auto auto auto 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 main p {
     margin: auto auto auto 0px;
     font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 hr {
