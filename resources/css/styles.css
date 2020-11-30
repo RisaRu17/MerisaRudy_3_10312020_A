@@ -31,9 +31,9 @@ body {
   right: 0;
   bottom: 0;
   background-color: white;
-  opacity: 0;
+  opacity: 100%;
   animation: fade-out 3s;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .loader-wrapper {
@@ -127,6 +127,10 @@ body {
   100% {
     transform: rotate(-360deg) ;
   }
+}
+
+.loaded #website-overlay {
+    visibility: hidden;
 }
 /*                    */
 
