@@ -15,39 +15,37 @@ body {
 @keyframes fade-out {
     0% {
         opacity: 1;
+        z-index: 1001;
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
+        z-index: -1;
     }
 }
 #website-overlay{
   text-align:center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: white;
   opacity: 100%;
+  background-color: white;
   animation: fade-out 3s;
-    z-index: 100;
 }
 
 .loader-wrapper {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
   height: 100%;
   width: 100%;
-  padding: auto;
   margin: auto;
 }
 
 .loader {
-  display: inline-block;
+  display: inline-grid;
   position: relative;
   width: 200px;
   height: 200px;
@@ -125,13 +123,32 @@ body {
     transform: rotate(0deg) ;
   }
   100% {
-    transform: rotate(-360deg) ;
+    transform: rotate(-360deg);
   }
 }
 
-.loaded #website-overlay {
-    visibility: hidden;
+#loaded {
+      position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 100%;
+  background-color: white;
+  animation: fade-in 1.5s linear 1.5s 1 none;
 }
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        z-index: -1;
+    }
+    100% {
+        opacity: 1;
+        z-index: 1001;
+    }
+}
+
 /*                    */
 
 header {
