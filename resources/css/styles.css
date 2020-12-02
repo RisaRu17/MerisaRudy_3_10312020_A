@@ -137,6 +137,8 @@ body {
   bottom: 0;
   opacity: 100%;
   background-color: white;
+  height: 100%;
+  width: 100%;
   animation: fade-in 1.5s linear 1.5s 1 none;
 }
 
@@ -245,12 +247,13 @@ section {
 }
 
 .how-to-section {
-    margin: 30px 10px;
+    padding: 30px 0px 0px 0px;
     width: 100%;
+    background-color: white;
 }
 
 .how-to-section h2 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .neumorphic-list {
