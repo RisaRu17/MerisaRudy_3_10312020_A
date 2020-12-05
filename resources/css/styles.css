@@ -251,6 +251,10 @@ section {
     opacity: 75%;
 }
 
+.explore-btn:focus {
+    outline: none;
+}
+
 .how-to-section {
     padding: 30px 0px 30px 0px;
     width: 100%;

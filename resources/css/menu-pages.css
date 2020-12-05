@@ -269,6 +269,10 @@ hr {
     opacity: 75%;
 }
 
+.order-btn:focus {
+    outline: none;
+}
+
 footer {
     width: 100%;
     background: #5a5a5a;
