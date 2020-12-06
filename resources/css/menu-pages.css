@@ -389,7 +389,7 @@ footer a {
 
     footer ul {
         grid-template-rows: 1fr;
-        grid-template-columns: 142px 223px 203px 85px 56px;
+        grid-template-columns: 142px 223px 203px 75px 56px;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
