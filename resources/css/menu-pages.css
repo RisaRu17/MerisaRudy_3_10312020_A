@@ -169,11 +169,18 @@ hr {
 }
 
 .item-card h3 {
-    margin: auto auto auto 0px;
+    margin: auto 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .item-card p {
     font-weight: lighter;
+    margin: auto 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .item-list {
@@ -212,7 +219,8 @@ hr {
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
     background-color: white;
     overflow: hidden;
-    -webkit-animation: slide-in-from-bottom 1500ms cubic-bezier(0.29, 0.38, 0.71, 1) 1;
+    -webkit-animation: slide-in-from-bottom 1500ms
+        cubic-bezier(0.29, 0.38, 0.71, 1) 1;
     animation: slide-in-from-bottom 1500ms cubic-bezier(0.29, 0.38, 0.71, 1) 1;
 }
 
@@ -280,9 +288,6 @@ hr {
     padding: 10px;
     height: 75px;
     width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; 
 }
 
 .price-order-check {
@@ -294,9 +299,9 @@ hr {
 }
 
 .item-card:hover .price-order-check {
-  margin: 0px;
-  -webkit-transition: all 350ms linear;
-  transition: all 350ms linear;
+    margin: 0px;
+    -webkit-transition: all 350ms linear;
+    transition: all 350ms linear;
 }
 
 .item-price {
@@ -306,31 +311,31 @@ hr {
 }
 
 .order-check {
-  width: 70px;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #99E2D0;
+    width: 70px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #99e2d0;
 }
 
 .check {
-  margin: 25px 25px 25px 23px;
-  height: 25.28px;
-  width: 25px;
-  -ms-flex-item-align:center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
+    margin: 25px 25px 25px 23px;
+    height: 25.28px;
+    width: 25px;
+    -ms-flex-item-align: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.item-card:hover .fa-check-circle {  
-  -webkit-animation: check-animation 350ms linear 1;
-  animation: check-animation 350ms linear 1;
+.item-card:hover .fa-check-circle {
+    -webkit-animation: check-animation 350ms linear 1;
+    animation: check-animation 350ms linear 1;
 }
 
 .fa-check-circle {
@@ -341,25 +346,25 @@ hr {
 }
 
 @-webkit-keyframes check-animation {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes check-animation {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 .btn-section {
