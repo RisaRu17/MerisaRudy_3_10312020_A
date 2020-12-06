@@ -162,13 +162,6 @@ main h2 {
     font-size: 6.8vw;
 }
 
-main p {
-    margin: auto auto auto 0px;
-    font-weight: 300;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 hr {
     width: 50px;
     border: 2px solid #99e2d0;
@@ -177,15 +170,10 @@ hr {
 
 .item-card h3 {
     margin: auto auto auto 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .item-card p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; 
+    font-weight: lighter;
 }
 
 .item-list {
@@ -292,10 +280,10 @@ hr {
     padding: 10px;
     height: 75px;
     width: 100%;
-    overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
-
-
 
 .price-order-check {
     display: -webkit-box;
