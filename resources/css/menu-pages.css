@@ -124,6 +124,9 @@ input[type="checkbox"] {
     background-color: #999999;
     position: relative;
     outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     -webkit-box-shadow: none;
             box-shadow: none;
     -webkit-transform: rotate(45deg);
