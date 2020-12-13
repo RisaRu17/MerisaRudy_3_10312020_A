@@ -167,7 +167,17 @@ input:hover[type="checkbox"]:after {
 input[type="checkbox"]:checked,
 input:checked[type="checkbox"]:before,
 input:checked[type="checkbox"]:after {
+    animation: gradual-like 250ms linear 1;
     background-color: #ff79da;
+}
+
+@keyframes gradual-like {
+    0% {
+    background-color: #666666;
+    }
+    100% {
+    background-color: #ff79da;
+    }
 }
 
 /*                       */

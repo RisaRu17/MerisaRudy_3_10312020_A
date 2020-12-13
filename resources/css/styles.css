@@ -566,7 +566,9 @@ input[type="checkbox"] {
     background-color: #999999;
     position: relative;
     outline: none;
-    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+        appearance: none;
     -webkit-box-shadow: none;
             box-shadow: none;
     -webkit-transform: rotate(45deg);
@@ -604,18 +606,21 @@ input:hover[type="checkbox"]:after {
     background-color: #666666;
 }
 
-input[type="checkbox"]:active,
-input:active[type="checkbox"]:before,
-input:avtive[type="checkbox"]:after {
-    background-color: #ff79da;
-}
-
 input[type="checkbox"]:checked,
 input:checked[type="checkbox"]:before,
 input:checked[type="checkbox"]:after {
+    animation: gradual-like 250ms linear 1;
     background-color: #ff79da;
 }
 
+@keyframes gradual-like {
+    0% {
+    background-color: #666666;
+    }
+    100% {
+    background-color: #ff79da;
+    }
+}
 /*                       */
 
 footer {
