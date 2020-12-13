@@ -430,10 +430,14 @@ hr {
 
 .order-btn:hover {
     opacity: 75%;
+    -webkit-box-shadow: 0px 11px 9px -8px rgba(0, 0, 0, 0.50);
+            box-shadow: 0px 11px 9px -8px rgba(0, 0, 0, 0.50);
 }
 
 .order-btn:focus {
     outline: none;
+    -webkit-box-shadow: 0px 11px 9px -8px rgba(0, 0, 0, 0.50);
+            box-shadow: 0px 11px 9px -8px rgba(0, 0, 0, 0.50);
 }
 
 footer {
