@@ -396,6 +396,10 @@ section {
             box-shadow: 13px 13px 26px #d9d9d9, -13px -13px 26px #ffffff;
 }
 
+.how-to-section li:hover {
+    background-color: rgba(147, 86, 220, 10%)
+}
+
 .badge {
     position: absolute;
     left: -10px;
