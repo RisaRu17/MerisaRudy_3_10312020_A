@@ -494,7 +494,7 @@ main .card:hover {
     overflow: hidden;
     position: relative;
     flex: 0 1 auto;
-    margin: 30px;
+    margin: 15px;
 }
 
 .card-img {

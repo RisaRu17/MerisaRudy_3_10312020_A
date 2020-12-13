@@ -229,7 +229,6 @@ hr {
         align-content: flex-start;
     margin: 0px;
     padding: 0px 0px 50px 0px;
-    grid-gap: 20px;
 }
 
 /* PAGE TRANSITION */
@@ -247,6 +246,7 @@ hr {
     overflow: hidden;
     -webkit-animation: slide-in-from-bottom 1500ms cubic-bezier(0.29, 0.38, 0.71, 1) 1;
             animation: slide-in-from-bottom 1500ms cubic-bezier(0.29, 0.38, 0.71, 1) 1;
+    margin: 10px;
 }
 
 .a1,
