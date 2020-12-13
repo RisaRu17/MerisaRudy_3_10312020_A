@@ -400,12 +400,14 @@ section {
     position: absolute;
     left: -10px;
     top: 25px;
-    padding: 3px 8px;
+    padding: 4px 8px;
     border-radius: 50%;
     background: #9356dc;
     color: white;
     font-size: 0.9em;
     font-weight: 900;
+    height: 25px;
+    
 }
 
 .fa-fw {
