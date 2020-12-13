@@ -637,6 +637,7 @@ footer {
     color: white;
     padding: 20px 30px;
     line-height: 1.8;
+    font-size: 17px;
 }
 
 footer ul {
@@ -682,7 +683,7 @@ footer img {
             filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
     width: 100px;
     border: none;
-    margin: 6px 0px 5px 0px;
+    margin: 8px 0px 5px 0px;
 }
 
 footer a {
