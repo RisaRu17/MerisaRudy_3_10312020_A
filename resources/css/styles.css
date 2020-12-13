@@ -466,6 +466,8 @@ main a:hover {
     margin: 0px 0px;
     padding: 20px 0px;
     grid-gap: 30px;
+      -webkit-flex: 0 0 auto;
+    flex-shrink: 0 0 auto;
 }
 
 .card {
@@ -553,6 +555,7 @@ main a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    z-index: 1001;
 }
 
 input[type="checkbox"] {
