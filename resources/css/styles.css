@@ -635,14 +635,14 @@ footer {
     width: 100%;
     background: #5a5a5a;
     color: white;
-    padding: 20px;
+    padding: 20px 30px;
     line-height: 1.8;
 }
 
 footer ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: (30px)[5];
+    -ms-grid-rows: 30px 30px 30px 30px 30px;
     grid-template-rows: repeat(5, 30px);
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;

@@ -454,17 +454,15 @@ footer {
     width: 100%;
     background: #5a5a5a;
     color: white;
-    -ms-flex-line-pack: justify;
-        align-content: justify;
     padding: 20px 30px;
     line-height: 1.8;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 footer ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: (30px)[5];
+    -ms-grid-rows: 30px 30px 30px 30px 30px;
     grid-template-rows: repeat(5, 30px);
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
