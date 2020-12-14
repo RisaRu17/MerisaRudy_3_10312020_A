@@ -516,8 +516,22 @@ main .card:hover {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    margin-bottom: 50px;
-    width: 300px;
+    margin-top: -127px;
+}
+
+#bastille-img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: -35px;
+    
+}
+
+#le-gourmand-img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: -35px;
 }
 
 .new-text-block {
