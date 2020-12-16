@@ -706,6 +706,9 @@ footer a {
 }
 
 @media only screen and (min-width: 755px) and (max-width: 2000px) {
+    footer img {
+        margin: -4px;
+    }
     footer ul {
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;

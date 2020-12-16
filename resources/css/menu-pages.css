@@ -540,7 +540,6 @@ footer a {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        font-size: 1.3em;
     }
 
     footer ul > *:nth-child(1) {
