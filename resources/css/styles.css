@@ -500,7 +500,7 @@ main .card:hover {
     overflow: hidden;
     position: relative;
     flex: 0 1 auto;
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 .card-img {
@@ -703,6 +703,12 @@ footer img {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (min-width: 620px) and (max-width: 2000px) {
+    .card {
+        margin: 15px;
+    }
 }
 
 @media only screen and (min-width: 755px) and (max-width: 2000px) {
