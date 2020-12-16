@@ -6,4 +6,4 @@ https://github.com/RisaRu17/MerisaRudy_3_10312020_A
 <br>
 GitPages
 <br>
-https://github.com/RisaRu17/MerisaRudy_3_10312020_A
+https://risaru17.github.io/MerisaRudy_3_10312020_A/
